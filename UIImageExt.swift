@@ -1,5 +1,5 @@
 //
-//  PropertiesFileReading.swift
+//  UIImageExt.swift
 //  swiftView
 //
 //  Created by maopenglin on 14-6-9.
@@ -24,7 +24,7 @@ extension UIImage{
         {
             radio = verticalRadio < horizontalRadio ? verticalRadio : horizontalRadio;
         }
-         width = width*radio;
+        width = width*radio;
         height = height*radio;
         var xPos:Double = (Double(size.width) - Double(width))/Double(2);
         var yPos:Double = (Double(size.height)-Double(height))/Double(2);
